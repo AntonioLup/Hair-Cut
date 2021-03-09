@@ -1,0 +1,123 @@
+
+
+html{
+    font-size: 15px;
+}
+.logo{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: 1s;
+}
+.logo:hover{
+    color: #bd2130;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.texto-bienvenido{
+    position: absolute;
+    display: block;
+}
+.bienvenidos{
+    background:url("../images/chalo.png");
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+   }
+
+.encabezado{
+    background: rgba(0,0,0,0.25);
+}
+#menu-principal{
+    clear:both;
+}
+.texto-bienvenido{
+    color: #fff;
+    margin-top: 5rem;
+    position: inherit;
+}
+
+/*
+Quien somos
+*/
+.quien-somos{
+    height: 60vh;
+}
+.container-quien{
+   display: flex;
+   align-items: center;
+   
+}
+.container-quien img{
+    padding: 2px;
+     margin: 0 auto;
+     height: 100px;
+     width: 100px;
+}
+/*
+Servicios
+*/
+.servicios .row {
+    margin-right: 0;
+    display: inline-flex;
+    margin-left:  0;
+    
+  }
+  .servicios h2 {
+      padding: 6px;
+    margin-bottom: 3rem;
+    
+    
+  }
+  .servicios .row div {
+      margin: 20px;
+    margin-right: 0;
+    margin-left:  0;}
+.servicios .fas{
+  color: #bd2130;
+  font-size: 3.5rem;
+}
+/*
+peinados
+*/
+.portafolios{
+    background: #424141;
+    color: #fff;
+}
+.portafolios .row {
+    margin-right: 0;
+    display: inline-flex;
+    margin-left:  0;
+    
+  }
+
+  .portafolios img {
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    transition: all 1s ease;
+    
+  }
+  .portafolios img:hover {
+      cursor: pointer;
+      transform: scale(1.1);
+    
+  }
+
+
+
+.footer{
+color: #fff;
+background: #000;
+font-size: 16px;
+font-weight: bolder;
+}
+
+@media (min-width:768px){
+    html{
+        font-size: 18px;
+    }
+    #menu-principal{
+clear: inherit;
+    }
+}
